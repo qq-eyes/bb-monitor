@@ -1,0 +1,24 @@
+{
+  "name": "bb-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq-eyes/bb-monitor.git"
+  },
+  "author": "qqeyes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qq-eyes/bb-monitor/issues"
+  },
+  "homepage": "https://github.com/qq-eyes/bb-monitor#readme",
+  "dependencies": {
+    "bestbuy": "^2.4.0",
+    "twilio": "^3.49.4",
+    "webhook-discord": "^3.7.7"
+  }
+}
