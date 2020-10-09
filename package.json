@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "build": "docker build -t bb-monitor .",
+    "docker": "docker run --name bestbuy --restart always --detach bb-monitor",
+    "stop": "docker stop bestbuy && docker rm bestbuy",
+    "log": "docker logs -f bestbuy"
   },
   "repository": {
     "type": "git",
