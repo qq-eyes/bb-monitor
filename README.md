@@ -1,5 +1,7 @@
 # bb-monitor
 
+![BestBuy Monitor](success.jpg)
+
 Configure the application by editing the config.js file with your own options.
 
 ## Instructions:
